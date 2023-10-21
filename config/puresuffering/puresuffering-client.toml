@@ -1,0 +1,26 @@
+
+[Rendering]
+	#Can render Invasions with a custom sky box renderer?
+	#NOTE: Set false with incompatible shaders!
+	useSkyBoxRenderer = true
+	#Should the sound effects signaling invasion be used?
+	useInvasionSoundEffects = true
+	#Can Invasions change the brightness Values?
+	#NOTE: Set false with incompatible shaders!
+	canInvasionsChangeBrightness = true
+	#Should Hyper Invasion vortex particles be enabled?
+	#NOTE: Set false with incompatible shaders!
+	#NOTE: May effect performance in hyper & nightmare invasions!
+	enableVortexParticles = true
+	#Minimum lifespan for vortex particles in Hyper Invasions.
+	#NOTE: Set to 'enableVortexParticles' to false to disable.
+	#Range: > 1
+	minVortexParticleLifespan = 30
+	#Maximum lifespan for vortex particles in Hyper Invasions.
+	#NOTE: Set to 'enableVortexParticles' to false to disable.
+	#Range: > 1
+	maxVortexParticleLifespan = 630
+	#Spread value for vortex particles (Delay between particles).
+	#Range: > 0
+	vortexParticleSpread = 0
+

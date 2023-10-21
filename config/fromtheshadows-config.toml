@@ -1,0 +1,44 @@
+
+[Nehemoth]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Ranged Damage" = 3.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Melee Damage" = 7.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Max Health" = 100.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Laser Damage" = 3.0
+
+[Froglin]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Froglin Projetile Damage" = 7.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Froglin Max Health" = 35.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Froglin Melee Damage" = 5.0
+
+[Cleric]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cleric Max Health" = 30.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cleric Projectile Damage" = 5.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cleric Melee Damage" = 1.0
+
+[Bulldrogioth]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Bulldrogioth Melee Damage" = 15.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Bulldrogioth Max Health" = 110.0
+
+[SpawnRate]
+	#Changed Nehemoth SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Nehemoth SpawnRate" = 6
+	#Changed Bulldrogioth SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Bulldrogioth SpawnRate" = 8
+	#Changed Froglin SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Froglin SpawnRate" = 15
+

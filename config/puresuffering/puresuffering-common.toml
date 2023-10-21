@@ -1,0 +1,148 @@
+
+[Gameplay]
+
+	[Gameplay.InvasionDifficulty]
+		#The Max amount of mobs that can spawn from Primary Invasions at once.
+		#NOTE: Reduce for increased performance!
+		#Range: > 0
+		primaryInvasionMobCap = 100
+		#The Max amount of mobs that can spawn from Primary Invasions at once.
+		#NOTE: Reduce for increased performance!
+		#Range: > 0
+		secondaryInvasionMobCap = 25
+		#How many days should pass when the Day Invasion Difficulty increases?
+		#Range: > 0
+		dayDifficultyIncreaseDelay = 50
+		#How many days should pass when the Night Invasion Difficulty increases?
+		#Range: > 0
+		nightDifficultyIncreaseDelay = 30
+		#How many days should pass when the Fixed Invasion Difficulty increases?
+		#Range: > 0
+		fixedDifficultyIncreaseDelay = 40
+		#Max Day Invasions that can occur.
+		#Range: > 0
+		maxDayInvasions = 3
+		#Max Night Invasions that can occur.
+		#Range: > 0
+		maxNightInvasions = 3
+		#Max Fixed Invasions that can occur.
+		#Range: > 0
+		maxFixedInvasions = 3
+		#Should a thread be added for every dimension's Invasion Spawner instead of just 1 for all?
+		#NOTE: This can boost performance on multi-threaded CPUs!
+		multiThreadedInvasions = false
+		#Should the rarity of Invasions act as a set delay between Invasions instead?
+		consistentInvasions = false
+		#Should invasions follow the tier system?
+		tieredInvasions = true
+		#List of Invasions that can't occur.
+		#Ex: 'puresuffering:solar_eclipse', 'puresuffering:phantom_zone' (swap '' with quotation marks)
+		invasionBlacklist = []
+		#List of Invasions that can be primary invasions.
+		#NOTE: The Invasion's Priority cannot be labeled as Secondary Only!
+		#Ex: 'puresuffering:solar_eclipse', 'lostcities:lostcity' (swap '' with quotation marks)
+		primaryWhitelist = []
+		#List of Dimensions that should use Overworld Invasions.
+		#NOTE: May not work with randomly generated dimensions! (RFTools/Mystcraft)
+		#Ex: 'twilightforest:twilight_forest', 'lostcities:lostcity' (swap '' with quotation marks)
+		overworldLikeDimensions = []
+		#List of Dimensions that should use Nether Invasions.
+		#NOTE: May not work with randomly generated dimensions! (RFTools/Mystcraft)
+		#Ex: 'twilightforest:twilight_forest', 'lostcities:lostcity' (swap '' with quotation marks)
+		netherLikeDimensions = []
+		#List of Dimensions that should use End Invasions.
+		#NOTE: May not work with randomly generated dimensions! (RFTools/Mystcraft)
+		#Ex: 'twilightforest:twilight_forest', 'lostcities:lostcity' (swap '' with quotation marks)
+		endLikeDimensions = []
+
+	[Gameplay.Balancing]
+		#How often should Day Invasions occur.
+		#Range: 1 ~ 100
+		dayInvasionRarity = 21
+		#How often should Night Invasions occur.
+		#Range: 1 ~ 100
+		nightInvasionRarity = 3
+		#How often should Fixed Invasions occur.
+		#Range: 1 ~ 100
+		fixedInvasionRarity = 12
+		#How often should Hyper Invasions occur.
+		#Range: 1 ~ 100
+		hyperInvasionRarity = 12
+		#How often should Nightmare Invasions occur.
+		#Range: 1 ~ 100
+		nightmareInvasionRarity = 6
+		#Can Day Invasions have a random chance to be canceled?
+		canDayInvasionsBeCanceled = true
+		#Can Night Invasions have a random chance to be canceled?
+		canNightInvasionsBeCanceled = true
+		#Can Fixed Invasions have a random chance to be canceled?
+		canFixedInvasionsBeCanceled = true
+		#Chance for Day Invasions to be canceled.
+		#NOTE: An invasion is canceled once in every 'value' day invasions.
+		#NOTE: If an invasion is set to be cancel on the same day as a hyper/nightmare invasion, it will not be cancled.
+		#Range: 0 ~ 100
+		dayCancelChance = 84
+		#Chance for Night Invasions to be canceled.
+		#NOTE: An invasion is canceled once in every 'value' night invasions.
+		#NOTE: If an invasion is set to be cancel on the same night as a hyper/nightmare invasion, it will not be cancled.
+		#Range: 0 ~ 100
+		nightCancelChance = 12
+		#Chance for Fixed Invasions to be canceled.
+		#NOTE: An invasion is canceled once in every 'value' fixed invasions.
+		#NOTE: If an invasion is set to be cancel on the same cycle as a hyper/nightmare invasion, it will not be cancled.
+		#Range: 0 ~ 100
+		fixedCancelChance = 24
+		#Maximum value in which a mob can be hypercharged
+		#NOTE: Max value can only occur in Extreme Invasions
+		#NOTE: May affect performance at higher numbers!
+		#Range: 1 ~ 100
+		maxHyperCharge = 4
+
+	[Gameplay.Modifications]
+		#Should neutral invasion mobs agro the player when spawned?
+		hyperAggression = true
+		#Should mobs be able to be hyper charged?
+		hyperCharge = true
+		#Should hyper invasions be able to occur?
+		hyperInvasions = true
+		#Should nightmare invasions be able to occur?
+		#NOTE: hyper invasions must be enabled.
+		nightmareInvasions = true
+		#List of Mobs that won't be hyper aggressive towards the player. (If setting is turned on)
+		hyperAggressionBlacklist = ["minecraft:vex"]
+		#List of Mobs that can't be hyper charged. (If setting is turned on)
+		hyperChargeBlacklist = ["minecraft:vex"]
+		#List of Mods that won't be allowed to have their mobs spawn in Biome Boosted Invasions.
+		#Ex: 'johncraft', 'mutantbeasts'
+		modBiomeBoostedBlacklist = []
+		#List of Mobs that won't be allowed to spawn in Biome Boosted Invasions.
+		#Ex: 'minecraft:enderman', 'mutantbeasts:mutant_creeper'
+		mobBiomeBoostedBlacklist = []
+		#Should players be unable to sleep during all invasions?
+		forceInvasionSleeplessness = false
+		#Should vexes in Invasions be weakened?
+		weakenedVexes = true
+		#This determines whether invasion mobs should have an xp boost per kill.
+		useXPMultiplier = true
+		#Should Invasion Mobs cause fire and explosions?
+		invasionAntiGrief = false
+		#Should Invasion Mobs die when the Invasions are over?
+		#NOTE: Can be used to reduce server lag.
+		shouldMobsDieAtEndOfInvasions = false
+		#Should Invasion Mobs spawn with max follow range?
+		#NOTE: Very Taxing on server performance!
+		shouldMobsSpawnWithMaxRange = false
+		#The Chance of a naturally spawning mob has of spawning during an Invasion.
+		#NOTE: May affect performance at higher numbers!
+		#Range: 0 ~ 10000
+		naturalSpawnChance = 3
+		#The Chance of an invasion mob being hyper charged
+		#Range: 0 ~ 10000
+		hyperChargeChance = 20
+		#How many ticks the Blessing Effect lasts when respawning.
+		#Range: > 0
+		blessingEffectRespawnDuration = 600
+		#How many ticks the Blessing Effect lasts when changing dimensions.
+		#Range: > 0
+		blessingEffectDimensionChangeDuration = 300
+

@@ -1,0 +1,27 @@
+#The number of ticks(1 second = 20 ticks) before Incubator Germ Stage to evolution
+#Range: > 1
+ticksBeforeTransform = 12000
+#Time after killing Germ Incubator until next appearance
+#Range: > 1
+ticksBeforeNextSpawn = 12000
+#Maximum distance from the player where the Germ Incubator can spawn
+#Range: > 1
+maxRangetoGermSpawn = 300
+#The number of objects needed to spawn a Incubator Germ Stage in the world
+#Range: > 1
+requiredEntitiesForSpawn = 6
+#The number of kills required to evolve flesh monsters of the first type
+#Range: > 1
+requiredKillsToEvolution = 1
+#Enable or disable Flesh Infector spawning
+enableFleshInfector = true
+#Maximum number of dogs in a pack
+#Range: > 1
+maxDogsAllowed = 3
+#Maximum number of summoned mobs from Incubator Germ stage
+#Range: > 1
+maxMobsGermStageAllowed = 8
+#Maximum number of summoned mobs from Incubator Awereness stage
+#Range: > 1
+maxMobsAwarenessStageAllowed = 14
+

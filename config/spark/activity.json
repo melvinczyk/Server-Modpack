@@ -1,0 +1,80 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "melvin0czyk",
+      "uniqueId": "02433a22-8588-4003-bae0-9deded0cde52"
+    },
+    "time": 1697775657483,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "/Users/nicholasburczyk/Documents/curseforge/minecraft/Instances/Groid Pack/config/spark/heap-2023-10-19_23.20.46.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "melvin0czyk",
+      "uniqueId": "02433a22-8588-4003-bae0-9deded0cde52"
+    },
+    "time": 1697760458085,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "/Users/nicholasburczyk/Documents/curseforge/minecraft/Instances/Groid Pack/config/spark/heap-2023-10-19_19.07.26.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "melvin0czyk",
+      "uniqueId": "02433a22-8588-4003-bae0-9deded0cde52"
+    },
+    "time": 1695682720459,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nAm4ERnuTa"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "melvin0czyk",
+      "uniqueId": "02433a22-8588-4003-bae0-9deded0cde52"
+    },
+    "time": 1695018341255,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1MEpeRim8D"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "melvin0czyk",
+      "uniqueId": "02433a22-8588-4003-bae0-9deded0cde52"
+    },
+    "time": 1695018258831,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "/Users/nicholasburczyk/Documents/curseforge/minecraft/Instances/Groid Pack/config/spark/heap-2023-09-18_01.24.09.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "melvin0czyk",
+      "uniqueId": "02433a22-8588-4003-bae0-9deded0cde52"
+    },
+    "time": 1695017830906,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/0QNZzaYiFc"
+    }
+  }
+]
